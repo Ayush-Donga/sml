@@ -1,0 +1,78 @@
+#dynamicIntimationTable{
+    width: 65%;
+}
+table td{
+    width: 30%;
+    margin: 2px;
+}
+#dischargeTable tr td{
+    width: 22%;
+}
+.fullcaseTable td{
+    width: 43%;
+}
+.FullcaseRequire td{
+    width: 18%;
+}
+#paymentmodeTable{
+    width: 97%;
+}
+#paymentmodeTable tr td{
+    width: 22%;
+}
+#StatusTable{
+    width: 100%;
+}
+#StatusTable td{
+    width: 23%;
+}
+.agencyflex{
+    display: flex;
+}
+#checkingAgencyTable tr td{
+    width: 17%;
+}
+.partButton{
+    width: 9%;
+}
+#addFullcasePart tr td{
+    width: 17%;
+}
+
+@media only screen and (max-width: 768px){
+    .table td{
+        width: 100%;
+    }
+    .marginBtn{
+        margin-top: 10px;
+    }
+    #paymentmodeTable tr td{
+        width: 100%;
+    }
+    #dynamicIntimationTable{
+        width: 100%;
+    }
+    .agencyflex{
+        display: grid;
+    }
+    #dischargeTable tr td{
+        width: 100%;
+        display: inline-block;
+    }
+    #addFullcasePart tr td{
+        width: 100%;
+        display: inline-block;
+    }
+    #StatusTable tr td{
+        width: 100%;
+        display: inline-block;
+    }
+    .partButton{
+        width: 100%;
+        display: flex;
+    }
+    #checkingAgencyTable tr td{
+        width: 100%;
+        display: inline-block;
+    }
+}
